@@ -1,0 +1,84 @@
+
+@media screen and (max-width: 600px){}
+@media screen and (max-width: 700px){}
+@media screen and (max-width: 800px){}
+@media screen and (max-width: 900px){}
+:root {
+    --primary: #00c45a;
+    --text: #5595b2;
+    --black: #140600;
+    --bg: #e0eaff;
+    
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+header {
+    background-color: #fff700;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+  
+  }
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(204, 70%, 53%);
+    align-content: center;
+    color: rgb(0, 0, 0);}
+    
+    .hero .grid-container .item1 {
+        /* width: 70%; */
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 12px;
+        text-align: justify
+      }
+      .reasonwhy .grid-container .item1 h6 {
+        font-size: 18px;
+        color: var(--text);
+        font-weight: 500;
+        margin-bottom: 18px;
+        text-align: justify;
+      }
+      .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    h6 {
+      text-align: center;
+  }
+  aside, article {
+  display: inline-block;
+  vertical-align: top;
+}
